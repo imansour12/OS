@@ -1,0 +1,17 @@
+This OS is written in 16 bit assembly language also referred to as real mode. 32 bit assembly is called protected
+
+0x7c00 is the place where the bios loads us
+
+start means the program starts.
+
+xor ax,ax sets ax to itself since its always equal to zero
+and then you use the mov command to set all the other registers to zero
+We use mov to store the memeory location we will use in the bx register
+
+
+
+The db command stores data into variables 
+call print_string prints a string
+we define later in the code
+
+when you mov ah, 0x0E, the CPU stops execution and does stuff
